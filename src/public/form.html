@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Frame 1</title>
+  </head>
+
+  <body>
+    <form action="#">
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" value="" tabindex="1" />
+      </p>
+
+      <p>
+        <label for="gender-male">Male</label>
+        <input type="radio" name="gender-male" id="gender-male" tabindex="2" value="male" />
+
+        <label for="gender-female">Female</label>
+        <input type="radio" name="gender-female" id="gender-female" tabindex="3" value="female" />
+
+        <label for="gender-other">Other</label>
+        <input type="radio" name="gender-other" id="gender-other" tabindex="3" value="other" />
+      </p>
+
+      <p>
+        <label for="occupation">Your Occupation:</label>
+        <select name="occupation" id="occupation">
+          <option value="Engineer">Engineer</option>
+          <option value="Teacher">Teacher</option>
+          <option value="Student">Student</option>
+          <option value="Other">Other</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="profile">Your profile:</label><br />
+        <textarea cols="40" rows="8" name="profile" id="profile"></textarea>
+      </p>
+
+      <p>
+        <input type="checkbox" name="checkbox-update" id="checkbox-update" />
+        <label for="checkbox-update">I agree the service of term</label><br>
+
+        <input type="checkbox" name="checkbox-update" id="checkbox-update" />
+        <label for="checkbox-update">E-mail me when there are any updates</label>
+      </p>
+
+      <p>
+        <input type="submit" value="Submit" />
+      </p>
+    </form>
+  </body>
+</html>
+
+
